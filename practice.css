@@ -45,6 +45,11 @@ nav ul li a {
     font-weight: bold;
     border-radius: 5px;
     margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e6b800;
 }
 
 .service-container {
@@ -52,6 +57,7 @@ nav ul li a {
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .service-card {
